@@ -1,2 +1,23 @@
+# Entornos y cachés
 .venv/
+venv/
 __pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos locales
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs
+*.log
+
+# Salidas generadas
+salidas_integracion/logs/
+salidas_integracion/pca/
+salidas_integracion/huellas/
+huellas/Generaciones_anguli/
+audio/registros_vivo/

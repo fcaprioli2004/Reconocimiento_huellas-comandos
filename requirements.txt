@@ -1,0 +1,26 @@
+# Python 3.12
+# Dependencias de la versión revisada y probada del proyecto.
+
+# Cálculo numérico y procesamiento de señales
+numpy==2.5.4
+scipy==1.18.1
+
+# Clasificadores, escaladores, PCA y modelos guardados
+scikit-learn==1.9.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+
+# Procesamiento de huellas e imágenes
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0
+
+# Captura, lectura y escritura de audio
+sounddevice==0.5.6
+soundfile==0.14.0
+
+# Gráficos y análisis PCA
+matplotlib==3.10.8
+plotly==7.1.0
+
+# Interfaz gráfica y ventanas interactivas
+PySide6==6.12.0
