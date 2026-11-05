@@ -1,0 +1,24 @@
+{
+  "propuesta": null,
+  "apoyo": 0.0,
+  "distancia": null,
+  "error": "Sin actividad suficiente: nivel de referencia casi silencioso",
+  "salida": "no_reconocido",
+  "umbrales_usados": {
+    "identificar": 6.345296785907081,
+    "reconocer": 5.518562459939916,
+    "salir": 6.545553582194134
+  },
+  "apoyo_minimo_usado": 0.7,
+  "estado_umbral": "calibrado (requiere prueba independiente)",
+  "captura": {
+    "dispositivo_solicitado": 17,
+    "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+    "hostapi": 2,
+    "frecuencia": 16000,
+    "canales": 1,
+    "muestras": 32000,
+    "duracion_s": 2.0,
+    "captura": "proceso aislado"
+  }
+}

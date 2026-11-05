@@ -1,0 +1,79 @@
+{
+  "estado": "generado",
+  "seleccion_generador": "2",
+  "ejecutable": "C:\\Anguli-MSVC\\Anguli.exe",
+  "directorio_trabajo": "C:\\Anguli-MSVC",
+  "carpeta_ejecucion": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd",
+  "carpeta_salida_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\salida_anguli",
+  "timeout_segundos": 120.0,
+  "modo_anguli": "impresion_de_maestra",
+  "maestra": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\huellas\\maestras\\identidad_2.png",
+  "maestra_sha256": "b75306f6d60534783ae56b92c4209234cfeb9b6806c8e4701b4778888f94dc67",
+  "comando": [
+    "C:\\Anguli-MSVC\\Anguli.exe",
+    "-impr",
+    "-indir",
+    "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\entrada_maestra",
+    "-ni",
+    "1",
+    "-outdir",
+    "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\salida_anguli",
+    "-numT",
+    "1",
+    "-noise",
+    "0 2",
+    "-scratch",
+    "0 2",
+    "-trans",
+    "10",
+    "-rot",
+    "10"
+  ],
+  "codigo_salida": 0,
+  "imagen_generada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\salida_anguli\\Impression_1\\1.png",
+  "imagen_sha256": "136707555bd859bf41721e9c8724170bbce7a18a83b90fb77c43ceb7dd5db0d4",
+  "duracion_segundos": 2.1410000000032596,
+  "registro_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\anguli.log",
+  "imagen_a_procesar": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\transformaciones\\huella_transformada.png",
+  "transformaciones": {
+    "habilitadas": true,
+    "version": 1,
+    "semilla_python": 11163639803851682627,
+    "cantidad": 2,
+    "esquema_aleatorio": "SeedSequence.spawn(3): cantidad, seleccion, parametros",
+    "aplicadas": [
+      {
+        "orden": 1,
+        "nombre": "recorte",
+        "parametros": {
+          "lado": "derecha",
+          "fraccion_roi": 0.05
+        },
+        "pixeles_modificados_en_paso": 1065,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\transformaciones\\huella_transformada_pasos\\01_recorte.png"
+      },
+      {
+        "orden": 2,
+        "nombre": "gaussiano",
+        "parametros": {
+          "sigma": 5
+        },
+        "pixeles_modificados_en_paso": 66302,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\transformaciones\\huella_transformada_pasos\\02_gaussiano.png"
+      }
+    ],
+    "alto": 400,
+    "ancho": 275,
+    "pixeles_modificados_total": 66846,
+    "versiones": {
+      "numpy": "2.5.4",
+      "opencv": "5.0.0"
+    },
+    "imagen_origen": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\salida_anguli\\Impression_1\\1.png",
+    "imagen_transformada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\transformaciones\\huella_transformada.png",
+    "sha256_archivo_origen": "136707555bd859bf41721e9c8724170bbce7a18a83b90fb77c43ceb7dd5db0d4",
+    "sha256_archivo_transformado": "ec35abc88a84298245d02f8d286e43edb2d18453bfd1ca36f54a593e24a400d7",
+    "archivo_registro": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155602_313080Z_777751cd\\transformaciones\\huella_transformada.json"
+  },
+  "estado_transformaciones": "ok"
+}

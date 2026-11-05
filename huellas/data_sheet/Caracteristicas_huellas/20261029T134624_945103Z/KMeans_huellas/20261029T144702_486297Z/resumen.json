@@ -1,0 +1,61 @@
+{
+  "modo": "entrenamiento",
+  "entrada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\huellas\\data_sheet\\Caracteristicas_huellas\\20261029T134624_945103Z\\vectores.npz",
+  "modelo_entrada": null,
+  "k": 3,
+  "muestras": 270,
+  "caracteristicas": 91,
+  "espacio_clustering": "Todas las características, StandardScaler ajustado sólo con train",
+  "pca_solo_visualizacion": true,
+  "varianza_pca_2d_porcentaje": 43.46236988226821,
+  "cluster_a_clase": {
+    "0": "Huellas_3",
+    "1": "Huellas_2",
+    "2": "Huellas_1"
+  },
+  "metricas": {
+    "test": {
+      "n": 60,
+      "conteos_clusters": {
+        "0": 20,
+        "1": 20,
+        "2": 20
+      },
+      "ARI_etiquetas_vs_clusters": 1.0,
+      "acierto_asociacion_clase": 1.0,
+      "n_etiquetadas": 60
+    },
+    "train": {
+      "n": 150,
+      "conteos_clusters": {
+        "0": 49,
+        "1": 50,
+        "2": 51
+      },
+      "ARI_etiquetas_vs_clusters": 0.97993200471804,
+      "acierto_asociacion_clase": 0.9933333333333333,
+      "n_etiquetadas": 150,
+      "silhouette": 0.27756428123859694,
+      "inercia": 7957.0082396895405,
+      "iteraciones": 4
+    },
+    "validacion": {
+      "n": 60,
+      "conteos_clusters": {
+        "0": 20,
+        "1": 20,
+        "2": 20
+      },
+      "ARI_etiquetas_vs_clusters": 1.0,
+      "acierto_asociacion_clase": 1.0,
+      "n_etiquetadas": 60
+    }
+  },
+  "avisos": [
+    "K-Means asigna siempre un clúster: no hay rechazo de huellas desconocidas."
+  ],
+  "versiones": {
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1"
+  }
+}

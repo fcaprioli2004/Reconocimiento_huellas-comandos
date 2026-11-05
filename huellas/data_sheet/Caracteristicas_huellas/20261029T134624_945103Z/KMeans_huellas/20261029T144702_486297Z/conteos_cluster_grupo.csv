@@ -1,0 +1,10 @@
+﻿conjunto;grupo_carpeta;C0;C1;C2
+test;Huellas_1;0;0;20
+test;Huellas_2;0;20;0
+test;Huellas_3;20;0;0
+train;Huellas_1;0;0;50
+train;Huellas_2;0;50;0
+train;Huellas_3;49;0;1
+validacion;Huellas_1;0;0;20
+validacion;Huellas_2;0;20;0
+validacion;Huellas_3;20;0;0

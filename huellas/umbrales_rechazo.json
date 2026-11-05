@@ -1,0 +1,86 @@
+{
+  "version": "rechazo_huellas_v1",
+  "modelo_sha256": "b315c4c653f29aab30f1b52fecef0fef04361b541a7c517a4e7a06d0a866f7d0",
+  "normalizador_sha256": "c2e64ce3e718279e9297d8d63d43bd50a472b843d816aec87f4d1d0ca53026de",
+  "extractor_sha256": "b5cbc832b3b8f4ff42b29f22e34fb80ca4001cf7d0ef5cc1a85517ac025c6830",
+  "escalas_por_cluster": [
+    10.479563150415855,
+    11.977410332051242,
+    12.938952223565419
+  ],
+  "umbral_normalizado": 1.0798362061180033,
+  "limites_por_cluster": [
+    9.316211714119087,
+    9.933641332080787,
+    9.971949080236985
+  ],
+  "regla": "limites clouters",
+  "seleccion": "Minimizar aceptacion intrusa con aceptacion conocida >=95%; desempate mayor aceptacion conocida y menor umbral",
+  "calibracion_conocidas": {
+    "conjunto": "validacion",
+    "n": 60,
+    "escala": "percentil95 por cluster, sólo conocidas correctamente identificadas"
+  },
+  "calibracion_intrusos": {
+    "identidades": [
+      "Intruso_1",
+      "Intruso_2",
+      "Intruso_3",
+      "Intruso_4",
+      "Intruso_5"
+    ],
+    "n": 10
+  },
+  "prueba_intrusos": {
+    "identidades": [
+      "Intruso_6",
+      "Intruso_7",
+      "Intruso_8",
+      "Intruso_9",
+      "Intruso_10"
+    ],
+    "n": 10
+  },
+  "normalizacion": {
+    "tamano": 512,
+    "margen": 12,
+    "encuadre": "ajustar",
+    "escala": "ninguna",
+    "ppi_entrada": null,
+    "ppi_salida": 500,
+    "periodo_objetivo": 10,
+    "periodo_min": 4,
+    "periodo_max": 24,
+    "sin_rotacion": false,
+    "ratio_pca": 1.3,
+    "invertir": false,
+    "ventana_roi": 17,
+    "erosion_roi": 3,
+    "std_roi": 6,
+    "coherencia_roi": 0.18,
+    "umbral_impulsos": 80,
+    "sigma_ruido": 0,
+    "contraste": "clahe",
+    "clip_clahe": 2,
+    "sin_gabor": false,
+    "coherencia_gabor": 0.25,
+    "ventana_binaria": 31,
+    "constante_binaria": 3,
+    "area_minima": 8,
+    "guardar_diagnosticos": false
+  },
+  "extraccion": {
+    "distancia_borde": 16,
+    "coherencia_minima": 0.35,
+    "separacion_minucias": 7,
+    "componente_minimo": 16
+  },
+  "versiones_evaluacion": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "opencv": "5.0.0",
+    "scikit-learn": "1.9.1",
+    "scikit-image": "0.26.0",
+    "joblib": "1.6.0"
+  }
+}

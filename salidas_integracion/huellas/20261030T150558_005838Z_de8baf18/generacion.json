@@ -1,0 +1,28 @@
+{
+  "estado": "error",
+  "seleccion_generador": "intruso",
+  "ejecutable": "C:\\Anguli-MSVC\\Anguli.exe",
+  "directorio_trabajo": "C:\\Anguli-MSVC",
+  "carpeta_ejecucion": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T150558_005838Z_de8baf18",
+  "carpeta_salida_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T150558_005838Z_de8baf18\\salida_anguli",
+  "timeout_segundos": 120.0,
+  "modo_anguli": "nueva_huella_e_impresion",
+  "semilla_intruso": 2120221050,
+  "configuracion_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T150558_005838Z_de8baf18\\Anguli_intruso.conf",
+  "comando": [
+    "C:\\Anguli-MSVC\\Anguli.exe",
+    "-cfg",
+    "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T150558_005838Z_de8baf18\\Anguli_intruso.conf",
+    "-num",
+    "1",
+    "-ni",
+    "1",
+    "-numT",
+    "1",
+    "-outdir",
+    "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T150558_005838Z_de8baf18\\salida_anguli"
+  ],
+  "error": "TimeoutExpired: Command '['C:\\\\Anguli-MSVC\\\\Anguli.exe', '-cfg', 'C:\\\\Users\\\\Fausto Caprioli\\\\Documents\\\\GitHub\\\\IA_Trabajo_final\\\\salidas_integracion\\\\huellas\\\\20261030T150558_005838Z_de8baf18\\\\Anguli_intruso.conf', '-num', '1', '-ni', '1', '-numT', '1', '-outdir', 'C:\\\\Users\\\\Fausto Caprioli\\\\Documents\\\\GitHub\\\\IA_Trabajo_final\\\\salidas_integracion\\\\huellas\\\\20261030T150558_005838Z_de8baf18\\\\salida_anguli']' timed out after 120.0 seconds",
+  "duracion_segundos": 120.06299999999464,
+  "registro_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T150558_005838Z_de8baf18\\anguli.log"
+}

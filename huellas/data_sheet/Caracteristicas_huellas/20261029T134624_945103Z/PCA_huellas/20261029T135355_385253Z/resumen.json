@@ -1,0 +1,29 @@
+{
+  "archivo_entrada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\huellas\\data_sheet\\Caracteristicas_huellas\\20261029T134624_945103Z\\vectores.npz",
+  "ejecucion_utc": "20261029T135355_385253Z",
+  "muestras": 270,
+  "caracteristicas_entrada": 91,
+  "caracteristicas_activas": 91,
+  "descartadas_por_varianza_baja": [],
+  "umbral_varianza": 1e-12,
+  "fuente_colores": "grupos",
+  "conteos": {
+    "Huellas_1": 90,
+    "Huellas_2": 90,
+    "Huellas_3": 90
+  },
+  "varianza_2d_porcentaje": 43.93185505263181,
+  "varianza_3d_porcentaje": 56.02982878991911,
+  "componentes_90_por_ciento": 23,
+  "componentes_95_por_ciento": 32,
+  "avisos": [
+    "Colores por carpeta: faltan etiquetas completas; confirmar identidad de cada grupo."
+  ],
+  "uso": "Exploración; scaler y PCA ajustados a todas las filas seleccionadas",
+  "versiones": {
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "plotly": "7.1.0"
+  }
+}

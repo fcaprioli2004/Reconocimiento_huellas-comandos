@@ -1,0 +1,82 @@
+{
+  "estado": "generado",
+  "seleccion_generador": "intruso",
+  "ejecutable": "C:\\Anguli-MSVC\\Anguli.exe",
+  "directorio_trabajo": "C:\\Anguli-MSVC",
+  "carpeta_ejecucion": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac",
+  "carpeta_salida_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\salida_anguli",
+  "timeout_segundos": 120.0,
+  "modo_anguli": "nueva_huella_e_impresion",
+  "semilla_intruso": 651454851,
+  "configuracion_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\Anguli_intruso.conf",
+  "comando": [
+    "C:\\Anguli-MSVC\\Anguli.exe",
+    "-cfg",
+    "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\Anguli_intruso.conf",
+    "-num",
+    "1",
+    "-ni",
+    "1",
+    "-numT",
+    "1",
+    "-outdir",
+    "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\salida_anguli"
+  ],
+  "codigo_salida": 0,
+  "imagen_generada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\salida_anguli\\Impression_1\\fp_1\\1..png",
+  "imagen_sha256": "9e04c2e05af50829ac11f3c7462338b9be26d61ffc54043c29c28049b1b16613",
+  "duracion_segundos": 21.375,
+  "registro_anguli": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\anguli.log",
+  "imagen_a_procesar": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\transformaciones\\huella_transformada.png",
+  "transformaciones": {
+    "habilitadas": true,
+    "version": 1,
+    "semilla_python": 1017031769558872119,
+    "cantidad": 3,
+    "esquema_aleatorio": "SeedSequence.spawn(3): cantidad, seleccion, parametros",
+    "aplicadas": [
+      {
+        "orden": 1,
+        "nombre": "traslacion",
+        "parametros": {
+          "tx": -8,
+          "ty": 0
+        },
+        "pixeles_modificados_en_paso": 52526,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\transformaciones\\huella_transformada_pasos\\01_traslacion.png"
+      },
+      {
+        "orden": 2,
+        "nombre": "recorte",
+        "parametros": {
+          "lado": "arriba",
+          "fraccion_roi": 0.05
+        },
+        "pixeles_modificados_en_paso": 621,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\transformaciones\\huella_transformada_pasos\\02_recorte.png"
+      },
+      {
+        "orden": 3,
+        "nombre": "contraste",
+        "parametros": {
+          "factor": 0.8
+        },
+        "pixeles_modificados_en_paso": 109110,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\transformaciones\\huella_transformada_pasos\\03_contraste.png"
+      }
+    ],
+    "alto": 400,
+    "ancho": 275,
+    "pixeles_modificados_total": 109757,
+    "versiones": {
+      "numpy": "2.5.4",
+      "opencv": "5.0.0"
+    },
+    "imagen_origen": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\salida_anguli\\Impression_1\\fp_1\\1..png",
+    "imagen_transformada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\transformaciones\\huella_transformada.png",
+    "sha256_archivo_origen": "9e04c2e05af50829ac11f3c7462338b9be26d61ffc54043c29c28049b1b16613",
+    "sha256_archivo_transformado": "5c0aedfa7733be223754a66676be5e83b372036d6d39fa69115dce9baa002f1b",
+    "archivo_registro": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185454_828322Z_a3f75eac\\transformaciones\\huella_transformada.json"
+  },
+  "estado_transformaciones": "ok"
+}

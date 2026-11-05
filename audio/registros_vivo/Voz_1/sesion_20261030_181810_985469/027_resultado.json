@@ -1,0 +1,23 @@
+{
+  "propuesta": "reconocer",
+  "apoyo": 1.0,
+  "distancia": 8.49015240703735,
+  "salida": "no_reconocido",
+  "umbrales_usados": {
+    "identificar": 8.0,
+    "reconocer": 7.5,
+    "salir": 8.5
+  },
+  "apoyo_minimo_usado": 0.7,
+  "estado_umbral": "manual desde script",
+  "captura": {
+    "dispositivo_solicitado": 9,
+    "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+    "hostapi": 1,
+    "frecuencia": 44100,
+    "canales": 1,
+    "muestras": 88200,
+    "duracion_s": 2.0,
+    "captura": "proceso aislado"
+  }
+}

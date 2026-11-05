@@ -1,0 +1,72 @@
+{
+  "estado": "ok",
+  "modo": "identificar",
+  "autorizada": 1,
+  "identidad": "Huellas_2",
+  "seleccion_generador": "2",
+  "imagen_generada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\salida_anguli\\Impression_1\\1.png",
+  "imagen_a_procesar": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\transformaciones\\huella_transformada.png",
+  "transformaciones": {
+    "habilitadas": true,
+    "version": 1,
+    "semilla_python": 17094887032228799244,
+    "cantidad": 3,
+    "esquema_aleatorio": "SeedSequence.spawn(3): cantidad, seleccion, parametros",
+    "aplicadas": [
+      {
+        "orden": 1,
+        "nombre": "elastica",
+        "parametros": {
+          "amplitud_px": 3
+        },
+        "pixeles_modificados_en_paso": 48610,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\transformaciones\\huella_transformada_pasos\\01_elastica.png"
+      },
+      {
+        "orden": 2,
+        "nombre": "gaussiano",
+        "parametros": {
+          "sigma": 5
+        },
+        "pixeles_modificados_en_paso": 74113,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\transformaciones\\huella_transformada_pasos\\02_gaussiano.png"
+      },
+      {
+        "orden": 3,
+        "nombre": "sal_pimienta",
+        "parametros": {
+          "proporcion": 0.01
+        },
+        "pixeles_modificados_en_paso": 941,
+        "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\transformaciones\\huella_transformada_pasos\\03_sal_pimienta.png"
+      }
+    ],
+    "alto": 400,
+    "ancho": 275,
+    "pixeles_modificados_total": 78132,
+    "versiones": {
+      "numpy": "2.5.4",
+      "opencv": "5.0.0"
+    },
+    "imagen_origen": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\salida_anguli\\Impression_1\\1.png",
+    "imagen_transformada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\transformaciones\\huella_transformada.png",
+    "sha256_archivo_origen": "136707555bd859bf41721e9c8724170bbce7a18a83b90fb77c43ceb7dd5db0d4",
+    "sha256_archivo_transformado": "43096dc915d3b6481275e8796c51e7050b028799ca9487246222bb42c708672e",
+    "archivo_registro": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T185319_241602Z_4230c139\\transformaciones\\huella_transformada.json"
+  },
+  "minucias": 59,
+  "avisos": "ROI toca borde de entrada: posible recorte/huella parcial | Rotación PCA aproximada; no resuelve ambigüedad de 180 grados",
+  "reconocimiento": {
+    "cluster": 1,
+    "clase_cercana": "Huellas_2",
+    "distancia": 6.745034036967133,
+    "limite_distancia": 9.933641332080787,
+    "puntaje_normalizado": 0.5631462770309869,
+    "limite_puntaje_normalizado": 0.8293647004393444,
+    "decision": "Autorizada",
+    "prediccion": "Huellas_2",
+    "distancia_C0": 13.078190441344763,
+    "distancia_C1": 6.745034036967133,
+    "distancia_C2": 13.562251454465876
+  }
+}

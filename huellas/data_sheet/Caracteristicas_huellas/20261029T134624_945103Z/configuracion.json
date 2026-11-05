@@ -1,0 +1,65 @@
+{
+  "raiz": "data_sheet",
+  "salida": null,
+  "etiquetas": "sin identidad asignada",
+  "identidad_carpeta": false,
+  "marcar": true,
+  "distancia_borde": 16,
+  "coherencia_minima": 0.35,
+  "separacion_minucias": 7,
+  "componente_minimo": 16,
+  "version_script": "1.0",
+  "ejecucion_utc": "20261029T134624_945103Z",
+  "dimension_vector": 91,
+  "bloques": [
+    {
+      "nombre": "orientacion_global",
+      "inicio_inclusivo": 0,
+      "fin_exclusivo": 16,
+      "descripcion": "Histograma axial, ponderado por coherencia"
+    },
+    {
+      "nombre": "orientacion_espacial",
+      "inicio_inclusivo": 16,
+      "fin_exclusivo": 48,
+      "descripcion": "Histograma axial en grilla 2x2x8"
+    },
+    {
+      "nombre": "lbp",
+      "inicio_inclusivo": 48,
+      "fin_exclusivo": 58,
+      "descripcion": "LBP uniforme P=8 R=1, frecuencias relativas"
+    },
+    {
+      "nombre": "glcm",
+      "inicio_inclusivo": 58,
+      "fin_exclusivo": 64,
+      "descripcion": "GLCM en ROI; promedio de direcciones y distancias"
+    },
+    {
+      "nombre": "hu",
+      "inicio_inclusivo": 64,
+      "fin_exclusivo": 71,
+      "descripcion": "Momentos de Hu de crestas binarias, log firmado"
+    },
+    {
+      "nombre": "densidad_espacial",
+      "inicio_inclusivo": 71,
+      "fin_exclusivo": 89,
+      "descripcion": "Terminaciones/bifurcaciones 3x3, por 10000 px de ROI"
+    },
+    {
+      "nombre": "densidad_global",
+      "inicio_inclusivo": 89,
+      "fin_exclusivo": 91,
+      "descripcion": "Terminaciones/bifurcaciones por 10000 px de ROI"
+    }
+  ],
+  "ejes": "x derecha; y abajo; tangente módulo pi desde +x hacia +y",
+  "versiones": {
+    "numpy": "2.5.4",
+    "opencv": "5.0.0",
+    "scipy": "1.18.1",
+    "skimage": "0.26.0"
+  }
+}

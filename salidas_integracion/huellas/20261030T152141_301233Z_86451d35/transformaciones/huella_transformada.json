@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "semilla_python": 7535370519256299158,
+  "cantidad": 2,
+  "esquema_aleatorio": "SeedSequence.spawn(3): cantidad, seleccion, parametros",
+  "aplicadas": [
+    {
+      "orden": 1,
+      "nombre": "traslacion",
+      "parametros": {
+        "tx": -4,
+        "ty": -2
+      },
+      "pixeles_modificados_en_paso": 53168,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152141_301233Z_86451d35\\transformaciones\\huella_transformada_pasos\\01_traslacion.png"
+    },
+    {
+      "orden": 2,
+      "nombre": "gaussiano",
+      "parametros": {
+        "sigma": 5
+      },
+      "pixeles_modificados_en_paso": 66992,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152141_301233Z_86451d35\\transformaciones\\huella_transformada_pasos\\02_gaussiano.png"
+    }
+  ],
+  "alto": 400,
+  "ancho": 275,
+  "pixeles_modificados_total": 82242,
+  "versiones": {
+    "numpy": "2.5.4",
+    "opencv": "5.0.0"
+  },
+  "imagen_origen": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152141_301233Z_86451d35\\salida_anguli\\Impression_1\\1.png",
+  "imagen_transformada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152141_301233Z_86451d35\\transformaciones\\huella_transformada.png",
+  "sha256_archivo_origen": "136707555bd859bf41721e9c8724170bbce7a18a83b90fb77c43ceb7dd5db0d4",
+  "sha256_archivo_transformado": "61d517693dd7a5961bd4774a1b41442311d3b87c6b40c76641b1ea45054587c3",
+  "archivo_registro": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152141_301233Z_86451d35\\transformaciones\\huella_transformada.json"
+}

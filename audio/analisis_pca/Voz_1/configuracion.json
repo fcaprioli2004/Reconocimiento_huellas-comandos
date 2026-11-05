@@ -1,0 +1,12 @@
+{
+  "entrada": "C:\\Users\\Fausto Caprioli\\Downloads\\IA_Trabajo_final\\audio\\caracteristicas\\Voz_1\\dataset.npz",
+  "escalado": "StandardScaler por columna, sin pesos",
+  "pca": "SVD full, whiten=False, n_components=rango numerico",
+  "uso": "exploratorio",
+  "versiones": {
+    "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

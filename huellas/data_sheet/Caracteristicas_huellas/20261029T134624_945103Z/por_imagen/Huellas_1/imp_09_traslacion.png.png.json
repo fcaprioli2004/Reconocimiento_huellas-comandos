@@ -1,0 +1,683 @@
+{
+  "version_script": "1.0",
+  "muestra": {
+    "fila": 89,
+    "id": "Huellas_1/imp_09_traslacion.png.png",
+    "grupo_carpeta": "Huellas_1",
+    "grupo_aumento": "Huellas_1/./imp_09",
+    "etiqueta": "",
+    "archivo_normalizado": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\huellas\\data_sheet\\Huellas_1\\Huellas_normalizadas\\imp_09_traslacion.png.png",
+    "sha256_grises": "386ee3fea92aba643a9aa1827ca5f1a3312ae7aa00bb83e31e6e93fce2a3fbf0",
+    "ancho": 512,
+    "alto": 512,
+    "terminaciones": 54,
+    "bifurcaciones": 12,
+    "coherencia_media": 0.6841122508049011,
+    "fraccion_crestas": 0.4570540699047169,
+    "pixeles_esqueleto": 10388,
+    "avisos": ""
+  },
+  "minucias": [
+    {
+      "tipo": "bifurcacion",
+      "x": 204,
+      "y": 30,
+      "tangente_rad": 2.6179113388061523,
+      "coherencia": 0.5169580578804016,
+      "distancia_borde_px": 17.029386365926403,
+      "x_roi": 0.34534534534534533,
+      "y_roi": 0.03696098562628337
+    },
+    {
+      "tipo": "terminacion",
+      "x": 299,
+      "y": 42,
+      "tangente_rad": 2.9664273262023926,
+      "coherencia": 0.4710640609264374,
+      "distancia_borde_px": 18.027756377319946,
+      "x_roi": 0.6306306306306306,
+      "y_roi": 0.061601642710472276
+    },
+    {
+      "tipo": "terminacion",
+      "x": 277,
+      "y": 43,
+      "tangente_rad": 2.939826488494873,
+      "coherencia": 0.4582565724849701,
+      "distancia_borde_px": 19.0,
+      "x_roi": 0.5645645645645646,
+      "y_roi": 0.06365503080082136
+    },
+    {
+      "tipo": "terminacion",
+      "x": 314,
+      "y": 55,
+      "tangente_rad": 3.028371810913086,
+      "coherencia": 0.38284969329833984,
+      "distancia_borde_px": 21.840329667841555,
+      "x_roi": 0.6756756756756757,
+      "y_roi": 0.08829568788501027
+    },
+    {
+      "tipo": "terminacion",
+      "x": 331,
+      "y": 71,
+      "tangente_rad": 0.15269792079925537,
+      "coherencia": 0.3865586221218109,
+      "distancia_borde_px": 19.4164878389476,
+      "x_roi": 0.7267267267267268,
+      "y_roi": 0.12114989733059549
+    },
+    {
+      "tipo": "terminacion",
+      "x": 150,
+      "y": 74,
+      "tangente_rad": 2.566314697265625,
+      "coherencia": 0.37223029136657715,
+      "distancia_borde_px": 16.1245154965971,
+      "x_roi": 0.1831831831831832,
+      "y_roi": 0.1273100616016427
+    },
+    {
+      "tipo": "terminacion",
+      "x": 279,
+      "y": 77,
+      "tangente_rad": 0.010676026344299316,
+      "coherencia": 0.601150631904602,
+      "distancia_borde_px": 53.03772242470448,
+      "x_roi": 0.5705705705705706,
+      "y_roi": 0.13347022587268995
+    },
+    {
+      "tipo": "terminacion",
+      "x": 359,
+      "y": 91,
+      "tangente_rad": 0.27452266216278076,
+      "coherencia": 0.4244045317173004,
+      "distancia_borde_px": 21.93171219946131,
+      "x_roi": 0.8108108108108109,
+      "y_roi": 0.162217659137577
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 358,
+      "y": 105,
+      "tangente_rad": 0.32625114917755127,
+      "coherencia": 0.4318663477897644,
+      "distancia_borde_px": 31.064449134018133,
+      "x_roi": 0.8078078078078078,
+      "y_roi": 0.19096509240246407
+    },
+    {
+      "tipo": "terminacion",
+      "x": 233,
+      "y": 125,
+      "tangente_rad": 2.713205099105835,
+      "coherencia": 0.6107262969017029,
+      "distancia_borde_px": 104.78549517943789,
+      "x_roi": 0.43243243243243246,
+      "y_roi": 0.23203285420944558
+    },
+    {
+      "tipo": "terminacion",
+      "x": 388,
+      "y": 126,
+      "tangente_rad": 0.7157366871833801,
+      "coherencia": 0.5053295493125916,
+      "distancia_borde_px": 16.1245154965971,
+      "x_roi": 0.8978978978978979,
+      "y_roi": 0.23408624229979466
+    },
+    {
+      "tipo": "terminacion",
+      "x": 324,
+      "y": 128,
+      "tangente_rad": 0.35845947265625,
+      "coherencia": 0.6194581985473633,
+      "distancia_borde_px": 69.8927750200262,
+      "x_roi": 0.7057057057057057,
+      "y_roi": 0.23819301848049282
+    },
+    {
+      "tipo": "terminacion",
+      "x": 150,
+      "y": 138,
+      "tangente_rad": 2.3073692321777344,
+      "coherencia": 0.7131481766700745,
+      "distancia_borde_px": 42.7551166528639,
+      "x_roi": 0.1831831831831832,
+      "y_roi": 0.2587268993839836
+    },
+    {
+      "tipo": "terminacion",
+      "x": 391,
+      "y": 141,
+      "tangente_rad": 0.8027007579803467,
+      "coherencia": 0.361515611410141,
+      "distancia_borde_px": 19.0,
+      "x_roi": 0.9069069069069069,
+      "y_roi": 0.2648870636550308
+    },
+    {
+      "tipo": "terminacion",
+      "x": 374,
+      "y": 150,
+      "tangente_rad": 0.7164459824562073,
+      "coherencia": 0.7326933741569519,
+      "distancia_borde_px": 37.05401462729781,
+      "x_roi": 0.8558558558558559,
+      "y_roi": 0.28336755646817247
+    },
+    {
+      "tipo": "terminacion",
+      "x": 203,
+      "y": 152,
+      "tangente_rad": 2.4109790325164795,
+      "coherencia": 0.6341307163238525,
+      "distancia_borde_px": 94.89467845985885,
+      "x_roi": 0.34234234234234234,
+      "y_roi": 0.2874743326488706
+    },
+    {
+      "tipo": "terminacion",
+      "x": 345,
+      "y": 161,
+      "tangente_rad": 0.7210947871208191,
+      "coherencia": 0.6861315369606018,
+      "distancia_borde_px": 67.1863081289633,
+      "x_roi": 0.7687687687687688,
+      "y_roi": 0.3059548254620123
+    },
+    {
+      "tipo": "terminacion",
+      "x": 252,
+      "y": 190,
+      "tangente_rad": 2.7048354148864746,
+      "coherencia": 0.6269437670707703,
+      "distancia_borde_px": 153.26447729333762,
+      "x_roi": 0.4894894894894895,
+      "y_roi": 0.3655030800821355
+    },
+    {
+      "tipo": "terminacion",
+      "x": 285,
+      "y": 202,
+      "tangente_rad": 0.3641033172607422,
+      "coherencia": 0.726658284664154,
+      "distancia_borde_px": 132.09844813622905,
+      "x_roi": 0.5885885885885885,
+      "y_roi": 0.39014373716632444
+    },
+    {
+      "tipo": "terminacion",
+      "x": 233,
+      "y": 204,
+      "tangente_rad": 2.203430652618408,
+      "coherencia": 0.7294254899024963,
+      "distancia_borde_px": 133.2216198670471,
+      "x_roi": 0.43243243243243246,
+      "y_roi": 0.3942505133470226
+    },
+    {
+      "tipo": "terminacion",
+      "x": 143,
+      "y": 209,
+      "tangente_rad": 2.010106325149536,
+      "coherencia": 0.6111234426498413,
+      "distancia_borde_px": 43.41658669218482,
+      "x_roi": 0.16216216216216217,
+      "y_roi": 0.40451745379876797
+    },
+    {
+      "tipo": "terminacion",
+      "x": 372,
+      "y": 220,
+      "tangente_rad": 1.0406253337860107,
+      "coherencia": 0.7451190948486328,
+      "distancia_borde_px": 46.95742752749558,
+      "x_roi": 0.8498498498498499,
+      "y_roi": 0.4271047227926078
+    },
+    {
+      "tipo": "terminacion",
+      "x": 388,
+      "y": 245,
+      "tangente_rad": 1.1193606853485107,
+      "coherencia": 0.6931894421577454,
+      "distancia_borde_px": 24.020824298928627,
+      "x_roi": 0.8978978978978979,
+      "y_roi": 0.4784394250513347
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 348,
+      "y": 248,
+      "tangente_rad": 1.0785067081451416,
+      "coherencia": 0.716823160648346,
+      "distancia_borde_px": 64.00781202322104,
+      "x_roi": 0.7777777777777778,
+      "y_roi": 0.48459958932238195
+    },
+    {
+      "tipo": "terminacion",
+      "x": 253,
+      "y": 251,
+      "tangente_rad": 1.10452401638031,
+      "coherencia": 0.610691487789154,
+      "distancia_borde_px": 153.55129436120035,
+      "x_roi": 0.4924924924924925,
+      "y_roi": 0.49075975359342916
+    },
+    {
+      "tipo": "terminacion",
+      "x": 320,
+      "y": 257,
+      "tangente_rad": 1.0774726867675781,
+      "coherencia": 0.7387973070144653,
+      "distancia_borde_px": 92.5418824100742,
+      "x_roi": 0.6936936936936937,
+      "y_roi": 0.5030800821355236
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 134,
+      "y": 258,
+      "tangente_rad": 2.1290996074676514,
+      "coherencia": 0.5317379832267761,
+      "distancia_borde_px": 37.36308338453881,
+      "x_roi": 0.13513513513513514,
+      "y_roi": 0.5051334702258727
+    },
+    {
+      "tipo": "terminacion",
+      "x": 195,
+      "y": 262,
+      "tangente_rad": 1.5099843740463257,
+      "coherencia": 0.7055805921554565,
+      "distancia_borde_px": 97.98469268207153,
+      "x_roi": 0.3183183183183183,
+      "y_roi": 0.5133470225872689
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 291,
+      "y": 262,
+      "tangente_rad": 1.1865391731262207,
+      "coherencia": 0.6226187944412231,
+      "distancia_borde_px": 121.1486689980538,
+      "x_roi": 0.6066066066066066,
+      "y_roi": 0.5133470225872689
+    },
+    {
+      "tipo": "terminacion",
+      "x": 349,
+      "y": 282,
+      "tangente_rad": 1.2030421495437622,
+      "coherencia": 0.786436915397644,
+      "distancia_borde_px": 62.51399843235114,
+      "x_roi": 0.7807807807807807,
+      "y_roi": 0.5544147843942505
+    },
+    {
+      "tipo": "terminacion",
+      "x": 178,
+      "y": 284,
+      "tangente_rad": 1.676335334777832,
+      "coherencia": 0.5549842119216919,
+      "distancia_borde_px": 85.32877591996736,
+      "x_roi": 0.2672672672672673,
+      "y_roi": 0.5585215605749486
+    },
+    {
+      "tipo": "terminacion",
+      "x": 213,
+      "y": 286,
+      "tangente_rad": 1.3164793252944946,
+      "coherencia": 0.7306641936302185,
+      "distancia_borde_px": 119.68291440301745,
+      "x_roi": 0.37237237237237236,
+      "y_roi": 0.5626283367556468
+    },
+    {
+      "tipo": "terminacion",
+      "x": 156,
+      "y": 297,
+      "tangente_rad": 2.0701699256896973,
+      "coherencia": 0.46732789278030396,
+      "distancia_borde_px": 61.66036003787198,
+      "x_roi": 0.2012012012012012,
+      "y_roi": 0.5852156057494866
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 229,
+      "y": 298,
+      "tangente_rad": 1.1376574039459229,
+      "coherencia": 0.5384861826896667,
+      "distancia_borde_px": 133.9589489358587,
+      "x_roi": 0.42042042042042044,
+      "y_roi": 0.5872689938398358
+    },
+    {
+      "tipo": "terminacion",
+      "x": 313,
+      "y": 305,
+      "tangente_rad": 1.122429609298706,
+      "coherencia": 0.7426232099533081,
+      "distancia_borde_px": 97.32933781753577,
+      "x_roi": 0.6726726726726727,
+      "y_roi": 0.6016427104722792
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 335,
+      "y": 314,
+      "tangente_rad": 1.2949855327606201,
+      "coherencia": 0.6180675625801086,
+      "distancia_borde_px": 75.0,
+      "x_roi": 0.7387387387387387,
+      "y_roi": 0.6201232032854209
+    },
+    {
+      "tipo": "terminacion",
+      "x": 191,
+      "y": 316,
+      "tangente_rad": 1.8878217935562134,
+      "coherencia": 0.5049906969070435,
+      "distancia_borde_px": 93.7709976485267,
+      "x_roi": 0.3063063063063063,
+      "y_roi": 0.6242299794661191
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 280,
+      "y": 327,
+      "tangente_rad": 0.9893487691879272,
+      "coherencia": 0.5820832252502441,
+      "distancia_borde_px": 130.034610777285,
+      "x_roi": 0.5735735735735735,
+      "y_roi": 0.6468172484599589
+    },
+    {
+      "tipo": "terminacion",
+      "x": 192,
+      "y": 332,
+      "tangente_rad": 2.2860965728759766,
+      "coherencia": 0.5099189877510071,
+      "distancia_borde_px": 92.65527507918802,
+      "x_roi": 0.30930930930930933,
+      "y_roi": 0.6570841889117043
+    },
+    {
+      "tipo": "terminacion",
+      "x": 221,
+      "y": 335,
+      "tangente_rad": 0.9159396290779114,
+      "coherencia": 0.569410502910614,
+      "distancia_borde_px": 120.93386622447825,
+      "x_roi": 0.3963963963963964,
+      "y_roi": 0.6632443531827515
+    },
+    {
+      "tipo": "terminacion",
+      "x": 137,
+      "y": 336,
+      "tangente_rad": 2.324526786804199,
+      "coherencia": 0.5837964415550232,
+      "distancia_borde_px": 37.656340767525464,
+      "x_roi": 0.14414414414414414,
+      "y_roi": 0.6652977412731006
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 153,
+      "y": 337,
+      "tangente_rad": 2.398563861846924,
+      "coherencia": 0.6093811988830566,
+      "distancia_borde_px": 53.33854141237835,
+      "x_roi": 0.1921921921921922,
+      "y_roi": 0.6673511293634496
+    },
+    {
+      "tipo": "terminacion",
+      "x": 200,
+      "y": 341,
+      "tangente_rad": 0.5154271125793457,
+      "coherencia": 0.5287096500396729,
+      "distancia_borde_px": 99.29753269845128,
+      "x_roi": 0.3333333333333333,
+      "y_roi": 0.675564681724846
+    },
+    {
+      "tipo": "terminacion",
+      "x": 342,
+      "y": 341,
+      "tangente_rad": 1.1613205671310425,
+      "coherencia": 0.5444689989089966,
+      "distancia_borde_px": 68.11754546370561,
+      "x_roi": 0.7597597597597597,
+      "y_roi": 0.675564681724846
+    },
+    {
+      "tipo": "terminacion",
+      "x": 266,
+      "y": 346,
+      "tangente_rad": 0.8014207482337952,
+      "coherencia": 0.6050240397453308,
+      "distancia_borde_px": 138.85243966167826,
+      "x_roi": 0.5315315315315315,
+      "y_roi": 0.6858316221765913
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 181,
+      "y": 347,
+      "tangente_rad": 2.771942138671875,
+      "coherencia": 0.6326278448104858,
+      "distancia_borde_px": 79.63039620647382,
+      "x_roi": 0.27627627627627627,
+      "y_roi": 0.6878850102669405
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 208,
+      "y": 348,
+      "tangente_rad": 0.5063714981079102,
+      "coherencia": 0.6805453896522522,
+      "distancia_borde_px": 106.36728820459794,
+      "x_roi": 0.35735735735735735,
+      "y_roi": 0.6899383983572895
+    },
+    {
+      "tipo": "terminacion",
+      "x": 286,
+      "y": 359,
+      "tangente_rad": 0.9819602966308594,
+      "coherencia": 0.561881959438324,
+      "distancia_borde_px": 118.98319209031165,
+      "x_roi": 0.5915915915915916,
+      "y_roi": 0.7125256673511293
+    },
+    {
+      "tipo": "terminacion",
+      "x": 168,
+      "y": 361,
+      "tangente_rad": 2.6715283393859863,
+      "coherencia": 0.6351219415664673,
+      "distancia_borde_px": 64.93843238021688,
+      "x_roi": 0.23723723723723725,
+      "y_roi": 0.7166324435318275
+    },
+    {
+      "tipo": "terminacion",
+      "x": 230,
+      "y": 363,
+      "tangente_rad": 0.5207598209381104,
+      "coherencia": 0.6375368237495422,
+      "distancia_borde_px": 121.6552506059644,
+      "x_roi": 0.42342342342342343,
+      "y_roi": 0.7207392197125256
+    },
+    {
+      "tipo": "terminacion",
+      "x": 206,
+      "y": 368,
+      "tangente_rad": 0.2616391181945801,
+      "coherencia": 0.5493974685668945,
+      "distancia_borde_px": 101.59724405711013,
+      "x_roi": 0.35135135135135137,
+      "y_roi": 0.731006160164271
+    },
+    {
+      "tipo": "terminacion",
+      "x": 319,
+      "y": 372,
+      "tangente_rad": 0.8640885353088379,
+      "coherencia": 0.5303702354431152,
+      "distancia_borde_px": 84.64632301523794,
+      "x_roi": 0.6906906906906907,
+      "y_roi": 0.7392197125256673
+    },
+    {
+      "tipo": "terminacion",
+      "x": 312,
+      "y": 392,
+      "tangente_rad": 0.6923887729644775,
+      "coherencia": 0.45132097601890564,
+      "distancia_borde_px": 78.92401408950256,
+      "x_roi": 0.6696696696696697,
+      "y_roi": 0.7802874743326489
+    },
+    {
+      "tipo": "terminacion",
+      "x": 157,
+      "y": 395,
+      "tangente_rad": 2.9218409061431885,
+      "coherencia": 0.6923003792762756,
+      "distancia_borde_px": 49.36598018878993,
+      "x_roi": 0.2042042042042042,
+      "y_roi": 0.7864476386036962
+    },
+    {
+      "tipo": "terminacion",
+      "x": 256,
+      "y": 396,
+      "tangente_rad": 0.5209680795669556,
+      "coherencia": 0.6421496868133545,
+      "distancia_borde_px": 93.38094023943002,
+      "x_roi": 0.5015015015015015,
+      "y_roi": 0.7885010266940452
+    },
+    {
+      "tipo": "terminacion",
+      "x": 292,
+      "y": 400,
+      "tangente_rad": 0.5411339998245239,
+      "coherencia": 0.6029322743415833,
+      "distancia_borde_px": 82.00609733428362,
+      "x_roi": 0.6096096096096096,
+      "y_roi": 0.7967145790554415
+    },
+    {
+      "tipo": "terminacion",
+      "x": 365,
+      "y": 425,
+      "tangente_rad": 0.6824161410331726,
+      "coherencia": 0.4212971031665802,
+      "distancia_borde_px": 20.0,
+      "x_roi": 0.8288288288288288,
+      "y_roi": 0.8480492813141683
+    },
+    {
+      "tipo": "terminacion",
+      "x": 267,
+      "y": 435,
+      "tangente_rad": 0.34010982513427734,
+      "coherencia": 0.6279518008232117,
+      "distancia_borde_px": 53.665631459994955,
+      "x_roi": 0.5345345345345346,
+      "y_roi": 0.8685831622176592
+    },
+    {
+      "tipo": "terminacion",
+      "x": 155,
+      "y": 440,
+      "tangente_rad": 2.926082134246826,
+      "coherencia": 0.5064558982849121,
+      "distancia_borde_px": 21.37755832643195,
+      "x_roi": 0.1981981981981982,
+      "y_roi": 0.8788501026694046
+    },
+    {
+      "tipo": "terminacion",
+      "x": 349,
+      "y": 445,
+      "tangente_rad": 0.5789541006088257,
+      "coherencia": 0.38988038897514343,
+      "distancia_borde_px": 17.69180601295413,
+      "x_roi": 0.7807807807807807,
+      "y_roi": 0.8891170431211499
+    },
+    {
+      "tipo": "terminacion",
+      "x": 153,
+      "y": 450,
+      "tangente_rad": 2.944941520690918,
+      "coherencia": 0.48490110039711,
+      "distancia_borde_px": 19.4164878389476,
+      "x_roi": 0.1921921921921922,
+      "y_roi": 0.8993839835728953
+    },
+    {
+      "tipo": "terminacion",
+      "x": 323,
+      "y": 454,
+      "tangente_rad": 0.4026362895965576,
+      "coherencia": 0.3710941672325134,
+      "distancia_borde_px": 21.633307652783937,
+      "x_roi": 0.7027027027027027,
+      "y_roi": 0.9075975359342916
+    },
+    {
+      "tipo": "terminacion",
+      "x": 301,
+      "y": 458,
+      "tangente_rad": 0.5123132467269897,
+      "coherencia": 0.41124677658081055,
+      "distancia_borde_px": 24.08318915758459,
+      "x_roi": 0.6366366366366366,
+      "y_roi": 0.9158110882956879
+    },
+    {
+      "tipo": "terminacion",
+      "x": 205,
+      "y": 464,
+      "tangente_rad": 0.11874628067016602,
+      "coherencia": 0.5780280232429504,
+      "distancia_borde_px": 19.0,
+      "x_roi": 0.3483483483483483,
+      "y_roi": 0.9281314168377823
+    },
+    {
+      "tipo": "terminacion",
+      "x": 294,
+      "y": 465,
+      "tangente_rad": 0.3579826354980469,
+      "coherencia": 0.4550992250442505,
+      "distancia_borde_px": 17.0,
+      "x_roi": 0.6156156156156156,
+      "y_roi": 0.9301848049281314
+    },
+    {
+      "tipo": "bifurcacion",
+      "x": 316,
+      "y": 469,
+      "tangente_rad": 0.371482253074646,
+      "coherencia": 0.5631914138793945,
+      "distancia_borde_px": 19.1049731745428,
+      "x_roi": 0.6816816816816816,
+      "y_roi": 0.9383983572895277
+    }
+  ],
+  "orientacion": "Tangente de cresta módulo pi, no ángulos individuales de ramas"
+}

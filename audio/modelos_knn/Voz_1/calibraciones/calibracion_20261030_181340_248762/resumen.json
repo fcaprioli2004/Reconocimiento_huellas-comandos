@@ -1,0 +1,714 @@
+{
+  "ajuste": {
+    "identificar": {
+      "umbral": 7.3800086542195915,
+      "aceptacion_correcta_calibracion": 1.0,
+      "rechazo_no_clase_calibracion": 1.0
+    },
+    "reconocer": {
+      "umbral": 6.037438237238902,
+      "aceptacion_correcta_calibracion": 1.0,
+      "rechazo_no_clase_calibracion": 1.0
+    },
+    "salir": {
+      "umbral": 5.978148209019899,
+      "aceptacion_correcta_calibracion": 1.0,
+      "rechazo_no_clase_calibracion": 1.0
+    }
+  },
+  "registros": [
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 7.3800086542195915,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "identificar",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "identificar"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 6.012050848794729,
+      "salida": "identificar",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "identificar",
+      "salida_antes": "identificar",
+      "salida_candidato": "identificar"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 5.107519570671862,
+      "salida": "identificar",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "identificar",
+      "salida_antes": "identificar",
+      "salida_candidato": "identificar"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 4.5774957839744355,
+      "salida": "identificar",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "identificar",
+      "salida_antes": "identificar",
+      "salida_candidato": "identificar"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 5.312958150340321,
+      "salida": "identificar",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "identificar",
+      "salida_antes": "identificar",
+      "salida_candidato": "identificar"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 5.357228426852974,
+      "salida": "reconocer",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "reconocer",
+      "salida_antes": "reconocer",
+      "salida_candidato": "reconocer"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 5.211607641717273,
+      "salida": "reconocer",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "reconocer",
+      "salida_antes": "reconocer",
+      "salida_candidato": "reconocer"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 4.923674444449634,
+      "salida": "reconocer",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "reconocer",
+      "salida_antes": "reconocer",
+      "salida_candidato": "reconocer"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 6.037438237238902,
+      "salida": "reconocer",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "reconocer",
+      "salida_antes": "reconocer",
+      "salida_candidato": "reconocer"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 5.586469237607744,
+      "salida": "reconocer",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "reconocer",
+      "salida_antes": "reconocer",
+      "salida_candidato": "reconocer"
+    },
+    {
+      "propuesta": "salir",
+      "apoyo": 1.0,
+      "distancia": 5.606279510042043,
+      "salida": "salir",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "salir",
+      "salida_antes": "salir",
+      "salida_candidato": "salir"
+    },
+    {
+      "propuesta": "salir",
+      "apoyo": 1.0,
+      "distancia": 5.7095304355316685,
+      "salida": "salir",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "salir",
+      "salida_antes": "salir",
+      "salida_candidato": "salir"
+    },
+    {
+      "propuesta": "salir",
+      "apoyo": 1.0,
+      "distancia": 5.568194458192714,
+      "salida": "salir",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "salir",
+      "salida_antes": "salir",
+      "salida_candidato": "salir"
+    },
+    {
+      "propuesta": "salir",
+      "apoyo": 1.0,
+      "distancia": 5.978148209019899,
+      "salida": "salir",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "salir",
+      "salida_antes": "salir",
+      "salida_candidato": "salir"
+    },
+    {
+      "propuesta": "salir",
+      "apoyo": 1.0,
+      "distancia": 5.389390557800322,
+      "salida": "salir",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "salir",
+      "salida_antes": "salir",
+      "salida_candidato": "salir"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 10.312628732433154,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 11.342005575987828,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 11.603849666516354,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 8.116054484736916,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 0.6789541110377539,
+      "distancia": 8.381206463328747,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "reconocer",
+      "apoyo": 1.0,
+      "distancia": 6.664578201690563,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 8.583131262149267,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 10.577376501519012,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 0.6668575691972606,
+      "distancia": 11.08977100424253,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    },
+    {
+      "propuesta": "identificar",
+      "apoyo": 1.0,
+      "distancia": 9.260422687693671,
+      "salida": "no_reconocido",
+      "umbrales_usados": {
+        "identificar": 6.0406936085697,
+        "reconocer": 6.203172934210986,
+        "salir": 6.212825927598219
+      },
+      "apoyo_minimo_usado": 0.7,
+      "estado_umbral": "provisional",
+      "captura": {
+        "dispositivo_solicitado": 9,
+        "nombre": "Auriculares con micrófono (JBL Tune Flex 2)",
+        "hostapi": 1,
+        "frecuencia": 44100,
+        "canales": 1,
+        "muestras": 88200,
+        "duracion_s": 2.0,
+        "captura": "proceso aislado"
+      },
+      "real": "desconocido",
+      "salida_antes": "no_reconocido",
+      "salida_candidato": "no_reconocido"
+    }
+  ],
+  "auditoria": {
+    "estado": "aprobada en calibracion",
+    "razones": [],
+    "antes": {
+      "cantidad_conocidos": 15,
+      "cantidad_desconocidos": 10,
+      "acierto_knn_sin_rechazo": 1.0,
+      "aceptacion_correcta": 0.9333333333333333,
+      "rechazo_conocidos": 0.06666666666666667,
+      "comando_incorrecto_aceptado": 0.0,
+      "falsa_aceptacion_desconocidos": 0.0,
+      "aceptacion_correcta_por_clase": {
+        "identificar": 0.8,
+        "reconocer": 1.0,
+        "salir": 1.0
+      }
+    },
+    "candidato": {
+      "cantidad_conocidos": 15,
+      "cantidad_desconocidos": 10,
+      "acierto_knn_sin_rechazo": 1.0,
+      "aceptacion_correcta": 1.0,
+      "rechazo_conocidos": 0.0,
+      "comando_incorrecto_aceptado": 0.0,
+      "falsa_aceptacion_desconocidos": 0.0,
+      "aceptacion_correcta_por_clase": {
+        "identificar": 1.0,
+        "reconocer": 1.0,
+        "salir": 1.0
+      }
+    },
+    "radios_actuales": {
+      "identificar": 6.0406936085697,
+      "reconocer": 6.203172934210986,
+      "salir": 6.212825927598219
+    },
+    "radios_propuestos": {
+      "identificar": 7.3800086542195915,
+      "reconocer": 6.037438237238902,
+      "salir": 5.978148209019899
+    },
+    "nota": "Metricas sobre ajuste, no sobre prueba independiente"
+  }
+}

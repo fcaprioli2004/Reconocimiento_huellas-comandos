@@ -1,0 +1,68 @@
+{
+  "audios_por_clase": {
+    "identificar": 50,
+    "reconocer": 50,
+    "salir": 50
+  },
+  "k_elegido": 3,
+  "comparacion_cv": [
+    {
+      "k": 3,
+      "exactitud_balanceada_cv": 1.0
+    },
+    {
+      "k": 5,
+      "exactitud_balanceada_cv": 1.0
+    },
+    {
+      "k": 7,
+      "exactitud_balanceada_cv": 1.0
+    }
+  ],
+  "umbrales_provisionales": {
+    "identificar": 6.0406936085697,
+    "reconocer": 6.203172934210986,
+    "salir": 6.212825927598219
+  },
+  "apoyo_minimo": 0.7,
+  "criterio_distancia": "media de 3 vecinos de la clase propuesta en espacio estandarizado",
+  "criterio_umbral_inicial": "percentil95 de distancias intra-clase sin propio punto, x1.15",
+  "advertencia": "Radio geometrico calculado con scaler final de entrenamiento; no es evaluacion de rechazo. CV selecciona k, no prueba final independiente.",
+  "normalizacion": {
+    "frecuencia": 16000,
+    "rms_objetivo_dbfs": -25.0,
+    "pico_maximo_dbfs": -1.0,
+    "ganancia_maxima_db": 20.0,
+    "silencio_dbfs": -65.0,
+    "umbral_activo_absoluto_dbfs": -65.0,
+    "umbral_activo_relativo_db": 36.0,
+    "umbral_fuerte_relativo_db": 18.0,
+    "ventana_ms": 10.0,
+    "referencia_superior_ms": 100.0,
+    "percentil_fondo": 20.0,
+    "margen_sobre_fondo_db": 6.0,
+    "actividad_minima_ms": 80.0,
+    "segmento_minimo_ms": 35.0,
+    "hueco_maximo_ms": 40.0,
+    "margen_recorte_ms": 10.0,
+    "contexto_fijo_ms": 20.0,
+    "paso_alto_hz": 70.0,
+    "orden_filtro": 2,
+    "contexto_filtro_ms": 150.0,
+    "fundido_ms": 3.0,
+    "rechazar_ruido_estacionario": true
+  },
+  "extraccion": {
+    "frecuencia": 16000,
+    "ventana_muestras": 400,
+    "salto_muestras": 160,
+    "n_fft": 512,
+    "bandas_mel": 40,
+    "n_mfcc": 13,
+    "fmin_hz": 20.0,
+    "fmax_hz": 8000.0,
+    "delta_ventanas": 9,
+    "umbral_absoluto_dbfs": -60.0,
+    "umbral_relativo_db": 30.0
+  }
+}

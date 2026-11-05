@@ -1,0 +1,5 @@
+# Instalar en el Python de la ventana. No reemplaza requirements_integracion.txt.
+matplotlib>=3.8,<4
+numpy>=1.26
+# El script original analizar_pca_huellas.py requiere también plotly
+# en el entorno de huellas. Si ya lo ejecutás, conservá ese entorno.

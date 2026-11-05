@@ -1,0 +1,41 @@
+PCA EXPLORATORIO DE COMANDOS DE VOZ
+
+Audios: 150 | Caracteristicas originales: 43
+Audios por comando: {np.str_('identificar'): 50, np.str_('reconocer'): 50, np.str_('salir'): 50}
+Caracteristicas constantes excluidas: []
+Rango numerico / componentes conservados: 43
+Varianza PC1+PC2: 53.91%
+Componentes para alcanzar 95% de varianza: 20
+
+Cada punto representa un audio; su numero coincide con id en coordenadas_pca.csv.
+Las etiquetas se usan SOLO para colores y marcadores; PCA no usa las clases.
+Distancias: similitud en la proyeccion de las caracteristicas estandarizadas.
+La proyeccion pierde informacion; solapamiento 2D no implica clases inseparables.
+Separacion visual no demuestra precision ni generalizacion a nuevos audios/voces.
+Los porcentajes son varianza de las caracteristicas escaladas, NO acierto del modelo.
+Contribuciones: coeficientes al cuadrado, suman 100% por componente; NO relevancia predictiva.
+No se aplicaron pesos manuales: cada caracteristica variable tiene varianza unitaria.
+Los grupos con mas columnas pueden influir mas; PCA no iguala bloques de caracteristicas.
+Escalador y PCA ajustados a toda la base exclusivamente para exploracion.
+Para evaluar un clasificador, ajustar ambos SOLO con entrenamiento dentro de cada particion.
+No estandarizar de nuevo cada audio de forma independiente.
+
+Caracteristicas con mayor contribucion a los primeros ejes:
+PC1 (30.32% de varianza):
+  mfcc_03_std: 6.86%
+  mfcc_09_media: 5.98%
+  mfcc_01_media: 5.77%
+  mfcc_02_std: 5.51%
+  delta_mfcc_04_std: 5.33%
+PC2 (23.59% de varianza):
+  mfcc_01_std: 7.48%
+  centroide_std_hz: 7.47%
+  zcr_std: 6.73%
+  mfcc_07_media: 6.13%
+  mfcc_07_std: 5.89%
+PC3 (6.72% de varianza):
+  mfcc_05_media: 13.45%
+  mfcc_09_std: 9.03%
+  mfcc_04_media: 8.82%
+  delta_mfcc_09_std: 8.01%
+  mfcc_05_std: 6.67%

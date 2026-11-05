@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "semilla_python": 15533960448167036934,
+  "cantidad": 3,
+  "esquema_aleatorio": "SeedSequence.spawn(3): cantidad, seleccion, parametros",
+  "aplicadas": [
+    {
+      "orden": 1,
+      "nombre": "presion",
+      "parametros": {
+        "metodo": "erosion_3x3",
+        "iteraciones": 1
+      },
+      "pixeles_modificados_en_paso": 45198,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152010_901982Z_de40f87e\\transformaciones\\huella_transformada_pasos\\01_presion.png"
+    },
+    {
+      "orden": 2,
+      "nombre": "recorte",
+      "parametros": {
+        "lado": "derecha",
+        "fraccion_roi": 0.05
+      },
+      "pixeles_modificados_en_paso": 471,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152010_901982Z_de40f87e\\transformaciones\\huella_transformada_pasos\\02_recorte.png"
+    },
+    {
+      "orden": 3,
+      "nombre": "gaussiano",
+      "parametros": {
+        "sigma": 5
+      },
+      "pixeles_modificados_en_paso": 69801,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152010_901982Z_de40f87e\\transformaciones\\huella_transformada_pasos\\03_gaussiano.png"
+    }
+  ],
+  "alto": 400,
+  "ancho": 275,
+  "pixeles_modificados_total": 78184,
+  "versiones": {
+    "numpy": "2.5.4",
+    "opencv": "5.0.0"
+  },
+  "imagen_origen": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152010_901982Z_de40f87e\\salida_anguli\\Impression_1\\fp_1\\1..png",
+  "imagen_transformada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152010_901982Z_de40f87e\\transformaciones\\huella_transformada.png",
+  "sha256_archivo_origen": "fcca12b2cfdda2bda172fc8dffe059858d457d8338a788b0dd6fe6414b3e69bf",
+  "sha256_archivo_transformado": "ac537c7c880dd07b30fb55050539f6e580ace74fe2e1d1b1604452f3de66f081",
+  "archivo_registro": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T152010_901982Z_de40f87e\\transformaciones\\huella_transformada.json"
+}

@@ -1,0 +1,43 @@
+{
+  "estado": "aprobada en calibracion",
+  "razones": [],
+  "antes": {
+    "cantidad_conocidos": 15,
+    "cantidad_desconocidos": 10,
+    "acierto_knn_sin_rechazo": 1.0,
+    "aceptacion_correcta": 0.7333333333333333,
+    "rechazo_conocidos": 0.26666666666666666,
+    "comando_incorrecto_aceptado": 0.0,
+    "falsa_aceptacion_desconocidos": 0.0,
+    "aceptacion_correcta_por_clase": {
+      "identificar": 0.8,
+      "reconocer": 1.0,
+      "salir": 0.4
+    }
+  },
+  "candidato": {
+    "cantidad_conocidos": 15,
+    "cantidad_desconocidos": 10,
+    "acierto_knn_sin_rechazo": 1.0,
+    "aceptacion_correcta": 1.0,
+    "rechazo_conocidos": 0.0,
+    "comando_incorrecto_aceptado": 0.0,
+    "falsa_aceptacion_desconocidos": 0.0,
+    "aceptacion_correcta_por_clase": {
+      "identificar": 1.0,
+      "reconocer": 1.0,
+      "salir": 1.0
+    }
+  },
+  "radios_actuales": {
+    "identificar": 6.257176383307303,
+    "reconocer": 6.021560915165075,
+    "salir": 5.766261464558238
+  },
+  "radios_propuestos": {
+    "identificar": 6.345296785907081,
+    "reconocer": 5.518562459939916,
+    "salir": 6.545553582194134
+  },
+  "nota": "Metricas sobre ajuste, no sobre prueba independiente"
+}

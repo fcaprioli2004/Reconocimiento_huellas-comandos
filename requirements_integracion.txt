@@ -1,0 +1,3 @@
+# Única dependencia NUEVA de la interfaz. Instalar en el Python que la inicia.
+# Las dependencias científicas se conservan en los entornos originales.
+PySide6>=6.8,<7

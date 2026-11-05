@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "semilla_python": 9790935835831801636,
+  "cantidad": 3,
+  "esquema_aleatorio": "SeedSequence.spawn(3): cantidad, seleccion, parametros",
+  "aplicadas": [
+    {
+      "orden": 1,
+      "nombre": "rotacion",
+      "parametros": {
+        "angulo_grados": 10
+      },
+      "pixeles_modificados_en_paso": 62865,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155421_018836Z_5d4a5b47\\transformaciones\\huella_transformada_pasos\\01_rotacion.png"
+    },
+    {
+      "orden": 2,
+      "nombre": "presion",
+      "parametros": {
+        "metodo": "erosion_3x3",
+        "iteraciones": 1
+      },
+      "pixeles_modificados_en_paso": 61485,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155421_018836Z_5d4a5b47\\transformaciones\\huella_transformada_pasos\\02_presion.png"
+    },
+    {
+      "orden": 3,
+      "nombre": "sal_pimienta",
+      "parametros": {
+        "proporcion": 0.01
+      },
+      "pixeles_modificados_en_paso": 860,
+      "archivo_paso": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155421_018836Z_5d4a5b47\\transformaciones\\huella_transformada_pasos\\03_sal_pimienta.png"
+    }
+  ],
+  "alto": 400,
+  "ancho": 275,
+  "pixeles_modificados_total": 72805,
+  "versiones": {
+    "numpy": "2.5.4",
+    "opencv": "5.0.0"
+  },
+  "imagen_origen": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155421_018836Z_5d4a5b47\\salida_anguli\\Impression_1\\1.png",
+  "imagen_transformada": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155421_018836Z_5d4a5b47\\transformaciones\\huella_transformada.png",
+  "sha256_archivo_origen": "4783a6f6dfaa64409e4987f12ad0a9ccca04928d4931235ab573e15d8f7f380b",
+  "sha256_archivo_transformado": "8c3be48119e5aa81a0309d2f90a83bbfd2609e5bbfa1b7aaa650d0212a431999",
+  "archivo_registro": "C:\\Users\\Fausto Caprioli\\Documents\\GitHub\\IA_Trabajo_final\\salidas_integracion\\huellas\\20261030T155421_018836Z_5d4a5b47\\transformaciones\\huella_transformada.json"
+}
