@@ -36,7 +36,7 @@ UMBRALES_MANUALES = {      # Distancias maximas en espacio estandarizado.
     "reconocer": 10.0,
     "salir": 10.0,
 }
-# Se conserva la metrica original de rechazo: media de los 5 vecinos
+# Se conserva la metrica original de rechazo: media de los 3 vecinos
 # mas cercanos DE LA CLASE PROPUESTA (no confundir con los 3 votos KNN).
 VECINOS_DISTANCIA = 3
 # ==========================================================
@@ -83,13 +83,7 @@ def _huella_archivo(modulo):
 
 
 def cargar_modelo(path=DATASET):
-    """Mantiene el nombre de la API, pero carga DATASET, nunca modelo.joblib.
 
-    Calcula las estadisticas para estandarizar X en memoria, igual que
-    StandardScaler (desviacion poblacional y escala 1 en columnas constantes).
-    Esto es preparacion de datos de referencia, no aprendizaje de parametros
-    de clasificacion ni guardado de modelos.
-    """
     dataset = Path(path)
     if not dataset.is_file():
         raise FileNotFoundError(f"Falta el dataset de audio: {dataset}")

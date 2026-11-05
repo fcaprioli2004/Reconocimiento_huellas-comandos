@@ -11,8 +11,6 @@ class AdaptadorAudio:
 
     def cargar(self):
         if self.modelo is None:
-            # ANTES: audio/modelos_knn/Voz_1/modelo.joblib
-            # AHORA: lee referencias; no se persiste ni se carga modelo KNN.
             self.modelo = self.api.cargar_modelo(
                 self.raiz / "audio/caracteristicas/Voz_1/dataset.npz"
             )
